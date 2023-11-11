@@ -1,0 +1,12 @@
+USE aulaphp;
+
+CREATE TABLE tb_dados (
+    ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    NOME VARCHAR(255),
+    SOBRENOME VARCHAR(255),
+    IDADE INT 
+);
+
+INSERT INTO tb_dados
+(ID, NOME, SOBRENOME, IDADE) values 
+(1, 'Samuca', 'Babora', 36);
